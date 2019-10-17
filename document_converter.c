@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include "document_converter.h"
 
 char* kth_word_in_mth_sentence_of_nth_paragraph(char**** document, int k, int m, int n) {
     return document[n - 1][m - 1][k - 1];
